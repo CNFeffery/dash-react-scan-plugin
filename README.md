@@ -4,6 +4,8 @@
 [![PyPI](https://img.shields.io/pypi/v/dash-react-scan-plugin.svg?color=dark-green)](https://pypi.org/project/dash-react-scan-plugin/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+English | [简体中文](./README-zh_CN.md)
+
 A plugin to monitor the rendering performance of page components for Dash applications using Dash Hooks. This plugin integrates [react-scan](https://github.com/aidenybai/react-scan) to help you analyze and optimize your Dash application's performance.
 
 ## Installation
@@ -16,6 +18,7 @@ pip install dash-react-scan-plugin
 
 ```python
 from dash import Dash
+
 # Import the react scan plugin
 from dash_react_scan_plugin import setup_react_scan_plugin
 
@@ -23,6 +26,7 @@ from dash_react_scan_plugin import setup_react_scan_plugin
 setup_react_scan_plugin()
 
 app = Dash(__name__)
+
 # Rest of your app code...
 ```
 
